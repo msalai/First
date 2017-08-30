@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Moja stranica</title>
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1>Moja stranica</h1>
+            </div>
+            <div id="content">
+                <div id="nav">
+                    <h3>Izbornik</h3>
+                    @Html.Action("PrikaziKategorije")
+                </div>
+                <div id="main">
+                    @RenderBody()
+                </div>
+            </div>
+            <div id="footer">
+                <span style="color:blue; font-size:30px;">Copyright</span> &copy; <span class="podebljano">Tecaj</span> 2017
+            </div>
+        </div>
+
+    </body>
+</html>

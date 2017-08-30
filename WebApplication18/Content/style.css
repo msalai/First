@@ -1,0 +1,59 @@
+﻿body {
+    background-color: cadetblue;
+    font-family: Calibri, Arial, sans-serif;
+}
+
+#container {
+    background-color: deepskyblue;
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    clear: both;
+    text-align: center;
+}
+
+#nav {
+    background-color: cornflowerblue;
+    width: 300px;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 28px;
+}
+
+.podebljano {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#main {
+    background-color: cornflowerblue;
+    width: 1280px;
+    float: right;
+}
+
+#content {
+    padding: 10px;
+}
